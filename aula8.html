@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Aula 08</title>
+    
+</head>
+<body>
+
+
+    <p>
+        <ul>
+            <li>selected="true" =  atributo para pré selecionar uma opção em uma lista</li>
+            <li>multiple = atributo para selecionar varias opções usando a tecla "shift"</li>
+        </ul>
+    </p>
+
+    <form action="https://instituto.varsolutions.com.br/">
+
+
+
+    <div class="divestilo" >
+        <h3>Refeições no Dia</h3>
+        <input type="checkbox" name="inputcheckboxref1" id="inputcheckboxref1">
+        <label for="inputcheckboxref1">Cafe dsa manhã</label><br>
+        <input type="checkbox" name="inputcheckboxref2" id="inputcheckboxref2">
+        <label for="inputcheckboxref2">Almoço</label><br>
+        <input type="checkbox" name="inputcheckboxref3" id="inputcheckboxref3">
+        <label for="initial-scale">Janta</label><br>
+    </div>
+
+    <div class="divestilo">
+        <h3>Estado Civil</h3>
+        <input type="radio" name="inputradio1" id="inputradio1" value="Solteiro">
+        <label for="inputradio1">Solteiro</label><br>
+        <input type="radio" name="inputradio2"  id="inputradio2" value="Casado">
+        <label for="inputradio2">Casado</label><br>
+        <input type="radio" name="inputradio3" id="inputradio3" value="Viuvo">
+        <label for="inputradio3">Viuvo</label><br>
+    </div>
+
+    <div class="divestilo">
+        <h3>Dias de Curso</h3>
+        <select name="selectdiastrabalho" id="selectdiastrabalho" multiple>
+            <option value="Segunda">Segunda</option>
+            <option value="Terça">Terça</option>
+            <option value="Quarta">Quarta</option>
+            <option value="nenhum" selected="true"> nenhuma opção</option>
+
+
+        </select>
+    </div>
+    
+
+
+<div class="divestilo">
+    <input type="submit" value="VAR" >
+</div>
+    </form><br>
+
+     <button type="button" onclick="alert('olá Mundo')">testar javascript</button>
+
+
+
+</body>
+</html>
